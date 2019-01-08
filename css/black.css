@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb:hover,
 }
 a.navbar-brand {
   height: 50px;
-  padding: 0;
+  padding: 5px;
 }
 .navbar-brand img {
   height: 100%;
