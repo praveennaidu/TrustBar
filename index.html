@@ -20,7 +20,7 @@
 
     <title>TrustBar.IO | Decentralized Ethereum Token Exchange</title>
     <meta name="description" content="TrustBar.IO is a decentralized Ethereum Token Exchange with the most ERC20 listings of any exchange. Start trading cryptocurrency today." />
-    <meta name="twitter:widgets:autoload" content="off">
+    <!-- <meta name="twitter:widgets:autoload" content="off"> -->
   </head>
 
   <body>
@@ -85,35 +85,42 @@
             <div id="volume"></div>
           </div>
         </div>
-        <div class="col-md-4 no-float">
+        <div class="col-md-5 no-float">
           <div class="row-container">
-            <div class="row-header trn">price_chart</div>
-            <div class="row-box nav-header">
-               <!-- TradingView Widget BEGIN -->
-              <!--<div class="tradingview-widget-container">
-                  <div id="tradingview_f0339"></div>
-                  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL chart</span></a> by TradingView</div>
-                  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                  <script type="text/javascript">
-                  new TradingView.widget(
-                  {
-                  "width": 480,
-                  //"height": 610,
-                  "symbol": "NASDAQ:AAPL",
-                  "interval": "D",
-                  "timezone": "Etc/UTC",
-                  "theme": "Dark",
-                  "style": "1",
-                  "locale": "en",
-                  "toolbar_bg": "#f1f3f6",
-                  "enable_publishing": false,
-                  "allow_symbol_change": true,
-                  "container_id": "tradingview_f0339"
-                }
-                  );
-                  </script>
-                </div>-->
-                <!-- TradingView Widget END -->
+
+            
+             <div class="row-header trn">price_chart</div>
+
+             <div class="col-md-12" style="padding:0px">
+                <!-- TradingView Widget BEGIN -->
+               <div class="tradingview-widget-container">
+                   <div id="tradingview_f0339"></div>
+                   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL chart</span></a> by TradingView</div>
+                   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                   <script type="text/javascript">
+                   new TradingView.widget(
+                   {
+                   "width": 650,
+                   "height": 350,
+                   "symbol": "NASDAQ:AAPL",
+                   "interval": "D",
+                   "timezone": "Etc/UTC",
+                   "theme": "Dark",
+                   "style": "1",
+                   "locale": "en",
+                   "toolbar_bg": "#f1f3f6",
+                   "enable_publishing": false,
+                   "allow_symbol_change": true,
+                   "container_id": "tradingview_f0339"
+                 }
+                   );
+                   </script>
+                 </div>
+                  <!-- TradingView Widget END  -->
+ 
+               </div>
+
+            <div class="row-box nav-header">             
               <ul class="nav nav-tabs two columns" role="tablist">
                 <li role="presentation" class="active"><a href="#chartPrice" aria-controls="chartPrice" role="tab" data-toggle="tab" class="trn">price</a></li>
                 <li role="presentation"><a href="#chartDepth" aria-controls="chartDepth" role="tab" data-toggle="tab" class="trn">depth</a></li>
@@ -125,6 +132,7 @@
                 <div role="tabpanel" class="tab-pane" id="chartDepth" style="height: 100%; width: 100%; background: #000;"></div>
               </div>
             </div>
+           
             <div class="row-header trn">my_transactions</div>
             <div class="row-box nav-header">
               <ul class="nav nav-tabs four columns" role="tablist">
@@ -133,7 +141,7 @@
                 <li role="presentation"><a href="#myOrders" aria-controls="myOrders" role="tab" data-toggle="tab" class="trn">orders</a></li>
                 <li role="presentation"><a href="#myFunds" aria-controls="myFunds" role="tab" data-toggle="tab" class="trn">funds</a></li>
               </ul>
-            </div>
+            </div>            
             <div class="row-box">
                 <div class="row-box height2 scroll">
                   <div class="tab-content">
@@ -180,12 +188,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 no-float">
+        <div class="col-md-2 no-float">
           <div class="row-container">
             <div class="row-header">
               <span class="trn">trades</span>
             </div>
-            <div class="row-box scroll"><!--Removed height7 class-->
+            <div class="row-box height7 scroll"><!--Removed height7-->
               <div id="trades"></div>
             </div>
             <!-- <div class="row-box height2 scroll">
@@ -223,7 +231,7 @@
       ga('send', 'pageview');
     </script>
 
-    <script>window.twttr = (function(d, s, id) {
+    <!-- <script>window.twttr = (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0],
         t = window.twttr || {};
       if (d.getElementById(id)) return t;
@@ -259,6 +267,6 @@
       twttr.ready(function () {
         embedTwitter('dark')
       })
-    </script>
+    </script> -->
   </body>
 </html>
