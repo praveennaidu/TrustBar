@@ -39,7 +39,9 @@ body {
   text-decoration: none;
   background-color: #3c424e !important;
 }
-
+.dropdowncolor>li>a:focus, .dropdowncolor>li>a:hover {
+  background-color: #15232c !important;
+}
 .naav>li>a {
   padding: 16px 15px !important;
 }
@@ -651,7 +653,7 @@ fieldset[disabled] .form-control {
 }
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu a {
-  color: #777;
+  color: white;
   font-weight: normal;
 
   overflow: hidden;
@@ -665,7 +667,7 @@ fieldset[disabled] .form-control {
   .dropdown-menu
   a
   span.symbol {
-  color: #15232c;
+  color: white;
   font-weight: bold;
 }
 

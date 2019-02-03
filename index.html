@@ -82,6 +82,10 @@
             <div class="container dark-mode">
                 <div class="row">
                   <div class="col-md-3 no-float">
+                      <div class="row-container">
+                          <div class="row-header trn">order_book</div>
+                        <div id="orders"></div>
+                      </div>
                     <div class="row-container">
           
                       <div class="row-header trn">new_order</div>
@@ -98,19 +102,13 @@
                         </div>
                       </div>            
                     </div>
+
                   </div>
-                  <div class="col-md-2 no-float">
-                    <div class="row-container">
-                      <div class="row-header trn">order_book</div>
-                      <div id="orders"></div>
-                      <div class="row-header trn">volume</div>
-                      <div id="volume"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 no-float">
+
+                  <div class="col-md-6 no-float">
                     <div class="row-container">
           
-                      
+                
                        <div class="row-header trn">price_chart</div>
           
                        <div class="col-md-12" style="padding:0px">
@@ -122,7 +120,7 @@
                              <script type="text/javascript">
                              new TradingView.widget(
                              {
-                             "width": 550,
+                             "width": 680,
                              "height": 350,
                              "symbol": "NASDAQ:AAPL",
                              "interval": "D",
@@ -140,19 +138,23 @@
                            </div>
                             <!-- TradingView Widget END  -->
            
+
+                         </div>
+                         <div class="col-md-12">
+                    
+                           
           
-                            <div class="row-header trn">my_transactions</div>
-                            <div class="row-box nav-header">
-                              <ul class="nav nav-tabs four columns" role="tablist">
-                                <li role="presentation" class="active"><a href="#important" aria-controls="info" role="tab" data-toggle="tab" class="trn">important</a></li>
-                                <li role="presentation"><a href="#myTrades" aria-controls="myTrades" role="tab" data-toggle="tab" class="trn">trades</a></li>
-                                <li role="presentation"><a href="#myOrders" aria-controls="myOrders" role="tab" data-toggle="tab" class="trn">orders</a></li>
-                                <li role="presentation"><a href="#myFunds" aria-controls="myFunds" role="tab" data-toggle="tab" class="trn">funds</a></li>
-                              </ul>
-                            </div>  
-          
-          
-                            <div class="row-box">
+                            <div class="col-md-8">                       
+                                   <div class="row-box">
+                                      <div class="row-header trn">my_transactions</div>
+                                      <div class="row-box nav-header">
+                                        <ul class="nav nav-tabs four columns" role="tablist">
+                                          <li role="presentation" class="active"><a href="#important" aria-controls="info" role="tab" data-toggle="tab" class="trn">important</a></li>
+                                          <li role="presentation"><a href="#myTrades" aria-controls="myTrades" role="tab" data-toggle="tab" class="trn">trades</a></li>
+                                          <li role="presentation"><a href="#myOrders" aria-controls="myOrders" role="tab" data-toggle="tab" class="trn">orders</a></li>
+                                          <li role="presentation"><a href="#myFunds" aria-controls="myFunds" role="tab" data-toggle="tab" class="trn">funds</a></li>
+                                        </ul>
+                                      </div> 
                                 <div class="row-box height2 scroll">
                                   <div class="tab-content">
                                   <div role="tabpanel" class="tab-pane active" id="important">
@@ -195,7 +197,14 @@
                                   <div role="tabpanel" class="tab-pane" id="myFunds"></div>
                                 </div>
                               </div>
-                            </div>
+                            </div></div>
+                            <div class="col-md-4 no-float">
+                                <div class="row-container">
+                                
+                                  <div class="row-header trn">volume</div>
+                                  <div id="volume"></div>
+                                </div>
+                              </div>
                          </div>
           
                       <div class="row-box nav-header">             
