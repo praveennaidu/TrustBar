@@ -26,17 +26,24 @@ body {
 .dropdownlist :hover {
   background-color : #15232c !important;
 }
-
+.rtendnav>li>a {
+  position: relative;
+  display: block;
+  padding: 8px 64px !important;
+}
 .navbar-def .navbar-nav>.open>a, .navbar-def .navbar-nav>.open>a:focus, .navbar-def .navbar-nav>.open>a:hover{
   background-color: #3c424e;
 }
 
-.navpills>li.active>a, .nnavpills>li.active>a:focus, .navpills>li.active>a:hover{
+.navpills>li.active>a, .navpills>li.active>a:focus, .navpills>li.active>a:hover {
   background-color: #3c424e !important;
 }
-
-.naav>li>a:focus, .naav>li>a:hover{
+.rtendnav>li.active>a, .rtendnav>li.active>a:focus, .rtendnav>li.active>a:hover {
+  background-color: #3c424e !important;
+}
+.naav>li>a:focus, .naav>li>a:hover, .rtendnav>li>a:hover, .rtendnav>li>a:focus{
   text-decoration: none;
+  color:white !important;
   background-color: #3c424e !important;
 }
 .dropdowncolor>li>a:focus, .dropdowncolor>li>a:hover {
@@ -159,7 +166,7 @@ a.navbar-brand {
   height: calc(40vh - 61px);
 }
 .row-box.height5 {
-  height: calc(60vh - 135px);
+  height: calc(105vh - 135px);
 }
 .row-box.height6 {
   height: calc(40vh - 81px);

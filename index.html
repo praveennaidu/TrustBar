@@ -144,7 +144,6 @@
                     
                            
           
-                            <div class="col-md-8">                       
                                    <div class="row-box">
                                       <div class="row-header trn">my_transactions</div>
                                       <div class="row-box nav-header">
@@ -197,14 +196,14 @@
                                   <div role="tabpanel" class="tab-pane" id="myFunds"></div>
                                 </div>
                               </div>
-                            </div></div>
-                            <div class="col-md-4 no-float">
+                            </div>
+                            <!-- <div class="col-md-4 no-float">
                                 <div class="row-container">
                                 
                                   <div class="row-header trn">volume</div>
                                   <div id="volume"></div>
                                 </div>
-                              </div>
+                              </div> -->
                          </div>
           
                       <div class="row-box nav-header">             
@@ -226,11 +225,22 @@
                   </div>
                   <div class="col-md-3 no-float">
                     <div class="row-container">
-                      <div class="row-header">
-                        <span class="trn">trades</span>
-                      </div>
-                      <div class="row-box height7 scroll"><!--Removed height7-->
+                        <!-- <span class="trn">trades</span> -->
+                        <ul class="nav rtendnav nav-pills">
+                          <li class="active"><a data-toggle="pill" href="#tradessec">TRADES</a></li>
+                          <li><a data-toggle="pill" href="#volumesec">VOLUME</a></li>
+                        </ul>
+                      <!-- <div class="row-box height7 scroll">
                         <div id="trades"></div>
+                      </div> -->
+                      <div class="tab-content">
+                        <div id="tradessec" class="tab-pane fade in active">
+                            <div id="trades"></div>
+
+                        </div>
+                        <div id="volumesec" class="tab-pane fade">
+                            <div id="volume"></div>
+                        </div>
                       </div>
                       <!-- <div class="row-box height2 scroll">
                         <div id="updates">
