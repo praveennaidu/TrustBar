@@ -19,6 +19,39 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.dropdowncolor{
+  background-color : #3c424e ;
+}
+
+.dropdownlist :hover {
+  background-color : #15232c !important;
+}
+.rtendnav>li>a {
+  position: relative;
+  display: block;
+  padding: 8px 64px !important;
+}
+.navbar-def .navbar-nav>.open>a, .navbar-def .navbar-nav>.open>a:focus, .navbar-def .navbar-nav>.open>a:hover{
+  background-color: #3c424e;
+}
+
+.navpills>li.active>a, .navpills>li.active>a:focus, .navpills>li.active>a:hover {
+  background-color: #3c424e !important;
+}
+.rtendnav>li.active>a, .rtendnav>li.active>a:focus, .rtendnav>li.active>a:hover {
+  background-color: #3c424e !important;
+}
+.naav>li>a:focus, .naav>li>a:hover, .rtendnav>li>a:hover, .rtendnav>li>a:focus{
+  text-decoration: none;
+  color:white !important;
+  background-color: #3c424e !important;
+}
+.dropdowncolor>li>a:focus, .dropdowncolor>li>a:hover {
+  background-color: #15232c !important;
+}
+.naav>li>a {
+  padding: 16px 15px !important;
+}
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   screen and (min-resolution: 2dppx) {
   body {
@@ -55,7 +88,7 @@ body::-webkit-scrollbar-thumb:hover,
 }
 
 .navbar.navbar-default {
-  background: #fff;
+  background: #15232c;
   border: 0;
   border-radius: 0;
 }
@@ -133,7 +166,7 @@ a.navbar-brand {
   height: calc(40vh - 61px);
 }
 .row-box.height5 {
-  height: calc(60vh - 135px);
+  height: calc(105vh - 135px);
 }
 .row-box.height6 {
   height: calc(40vh - 81px);
@@ -351,12 +384,12 @@ pre code {
 }
 
 .dropdown-menu::-webkit-scrollbar-track {
-  background: #fff;
+  background: #0a0a0a;
 }
 
 .dropdown-menu::-webkit-scrollbar-thumb {
-  background-color: #ccc;
-  border: 1px solid #ccc;
+  background-color: #9c9b9b;
+    border: 1px solid #484141;
   transition: all 0.2s ease-out;
 }
 
@@ -482,7 +515,7 @@ pre code {
 
 #bs-example-navbar-collapse-1 .navbar-nav a {
   font-weight: bold;
-  color: #15232c;
+  color: #fefefe;
   font-size: 12px;
 }
 
@@ -627,7 +660,7 @@ fieldset[disabled] .form-control {
 }
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu a {
-  color: #777;
+  color: white;
   font-weight: normal;
 
   overflow: hidden;
@@ -641,7 +674,7 @@ fieldset[disabled] .form-control {
   .dropdown-menu
   a
   span.symbol {
-  color: #15232c;
+  color: white;
   font-weight: bold;
 }
 

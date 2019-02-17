@@ -6,7 +6,7 @@ ForkDelta is a decentralized Ethereum Token Exchange with the most ERC20 listing
 
 
 # What is TrustBar.IO?
-ForkDelta currently acts as an open source, updated interface for EtherDelta's smart contract with an active and public development team. Although ForkDelta started as a fork of EtherDelta, considerable development time has been put towards a new token listing system, order book, API, and front-end UI all of which are at different stages of development and can be tracked on [GitHub](https://github.com/forkdelta/). 
+ForkDelta currently acts as an open source, updated interface for EtherDelta's smart contract with an active and public development team. Although ForkDelta started as a fork of EtherDelta, considerable development time has been put done towards a new token listing system, order book, API, and front-end UI all of which are at different stages of development and can be tracked on [GitHub](https://github.com/forkdelta/). 
 
 
 # How does TrustBar.IO Work?
